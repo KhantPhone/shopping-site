@@ -53,7 +53,7 @@ body{
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	border-bottom: 3px solid solid #000;
+	border-bottom: 3px solid solid #000F0A;
 	
 }
 #cutom-border-2{
@@ -73,6 +73,14 @@ nav button:focus{
 }
 /*nav-section end*/
 /*landing-section start*/
+#landing h2{
+	position: absolute;
+	z-index: 99;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%);
+	transform: translateX(-50%);
+}
 /*landing-section end*/
 /*new arrivals section start*/
 #new-arrivals img{
@@ -96,7 +104,7 @@ nav button:focus{
 
 @media screen and (max-width: 768px){
 	#new-arrivals h2{
-		font-size: 20px;
+		font-size: 26px;
 	}
 	#new-arrivals .swiper-slide p{
 		font-size: 11px;
@@ -106,7 +114,7 @@ nav button:focus{
 	}
 	#new-arrivals img{
 	width: 200px;
-	height: 145px;
+	height: 150px;
 }
 
 }
