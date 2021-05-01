@@ -73,14 +73,7 @@ nav button:focus{
 }
 /*nav-section end*/
 /*landing-section start*/
-#landing h2{
-	position: absolute;
-	z-index: 99;
-	top: 50%;
-	left: 50%;
-	transform: translateY(-50%);
-	transform: translateX(-50%);
-}
+
 /*landing-section end*/
 /*new arrivals section start*/
 #new-arrivals img{
@@ -119,3 +112,56 @@ nav button:focus{
 
 }
 /*new arrivals section end*/
+/*best sellers items start*/
+@media screen and (max-width: 768px){	
+	#best-sellers-items h2{
+		font-size: 26px;
+	}#best-sellers-items p{
+		font-size: 17px;
+	}
+}
+/*best sellers items end*/
+/*customers reviews start*/
+#customers-reviews{
+	background-image:url("../images/bg.jpeg");
+	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+#customers-reviews img{
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+
+}
+#customers-reviews .row{
+ border-radius: 2px;
+}
+
+@media screen and (max-width: 768px){
+	h2{
+		font-size: 26px;
+	}
+	#customers-reviews img{
+		width: 115px;
+		height: 115px;
+		border-radius: 50%;
+	}
+	#customers-reviews p{
+		font-size: 16px;
+	}
+
+}
+/*customers reviews end*/
+
+/*location start*/
+#location {
+
+}
+@media screen and (max-width: 768px){
+	#location h2{
+		font-size: 26px;
+	}
+}
+/*location end*/
