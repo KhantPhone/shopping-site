@@ -1,8 +1,9 @@
 /*swiper start */
+	
 var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
       centeredSlides: true,
-      spaceBetween: 10,
+      spaceBetween: 20,
       grabCursor: true,
       loop:true,
       pagination: {
@@ -13,7 +14,7 @@ var swiper = new Swiper('.swiper-container', {
 
       loop:true,
        autoplay: {
-        delay:1200,
+        delay:120043433,
         disableOnInteraction: false,
 
       },
