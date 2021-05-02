@@ -3,7 +3,7 @@
 var swiper = new Swiper('.swiper-container', {
       slidesPerView: 3,
       centeredSlides: true,
-      spaceBetween: 20,
+      spaceBetween: 30,
       grabCursor: true,
       loop:true,
       pagination: {
