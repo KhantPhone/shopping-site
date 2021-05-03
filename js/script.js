@@ -1,9 +1,9 @@
 /*swiper start */
 	
 var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
+      slidesPerView: 2,
       centeredSlides: true,
-      spaceBetween: 30,
+      spaceBetween: 20,
       grabCursor: true,
       loop:true,
       pagination: {
