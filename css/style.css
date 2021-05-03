@@ -60,17 +60,6 @@ nav button:focus{
 }
 /*nav-section end*/
 /*landing-section start*/
-#landing {
-	position: relative;
-}
-#landing h2{
-	z-index: 999;
-	position: absolute;
-	top: 60%;
-	right: 50%;
-	transform: translateX(-50%);
-	transform: translateY(-50%);
-}
 /*landing-section end*/
 /*new arrivals section start*/
 #new-arrivals img{
@@ -101,7 +90,7 @@ nav button:focus{
 	}	
 	#new-arrivals img{
 	  width: 100%;
-      height:220px;
+      height:200px;
       
 }
 
