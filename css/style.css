@@ -60,6 +60,12 @@ body{
 /*nav-section start*/
 nav button:focus{
 	outline: none;
+	border: none;
+}
+nav .navbar-toggler{
+
+	outline: none!important;
+	border: none!important;
 }
 /*nav-section end*/
 /*landing-section start*/
@@ -150,7 +156,7 @@ nav button:focus{
 /*best selling items start*/
 @media screen and (max-width: 768px){
 	#best-selling-items p{
-		font-size: 14px;
+		font-size: 13px;
 	}
 }
 /*best selling items end*/
