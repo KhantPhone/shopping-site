@@ -27,23 +27,25 @@ body{
 .font-sar{
 	font-family: 'Sarabun', sans-serif;
 }
+.font-g{
+	font-family: 'Luckiest Guy', cursive;
+}
 /*custom border start*/
 
 #custom-border-1{
-	width: 13%;
+	width: 12%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
 	border-bottom: 3px solid #000;
 	margin-top: 14px;
 	margin-bottom: 12px;
-	border-radius: 30%;
 	
 }
 @media screen and (max-width: 768px){
 
 #custom-border-1{
-	width: 30%;
+	width: 27%;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -58,7 +60,17 @@ nav button:focus{
 }
 /*nav-section end*/
 /*landing-section start*/
-
+#landing {
+	position: relative;
+}
+#landing h2{
+	z-index: 999;
+	position: absolute;
+	top: 60%;
+	right: 50%;
+	transform: translateX(-50%);
+	transform: translateY(-50%);
+}
 /*landing-section end*/
 /*new arrivals section start*/
 #new-arrivals img{
@@ -95,7 +107,46 @@ nav button:focus{
 
 }
 /*new arrivals section end*/
+/*shopping section start*/
+#shopping button{
+	width: 150px;
+	outline: none;
+	border:1px solid #000;
+	background: #191919;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	color: #fff;
+	-webkit-box-shadow: 3px 1px 9px 2px rgba(0,0,0,0.17); 
+	box-shadow: 3px 1px 9px 2px rgba(0,0,0,0.20);
+}
+#shopping button:hover{
+	width: 150px;
+	outline: none;
+	border: 1px solid #000;
+	background: #fff;
+	padding: 10px 20px 10px 20px;
+	border-radius: 3px;
+	color:#000;
+	-webkit-box-shadow: 3px 1px 9px 2px rgba(0,0,0,0.25); 
+	box-shadow: 3px 1px 9px 2px rgba(0,0,0,0.25);
+}
+@media screen and (max-width: 768px){
+	#shopping h2{
+		font-size: 26px;
+		margin-top:0rem !important;
+	}
+	#shopping .col-md-6{
+		margin-top: 0rem !important;
+	}
+}
+/*shopping section end*/
 /*best sellers items start*/
+#best-sellers-items img{
+	-webkit-box-shadow: 3px 1px 9px 2px rgba(0,0,0,0.17); 
+	box-shadow: 3px 1px 9px 2px rgba(0,0,0,0.20);
+	border-radius: 2px;
+}
+
 @media screen and (max-width: 768px){	
 	#best-sellers-items h2{
 		font-size: 26px;
@@ -104,14 +155,13 @@ nav button:focus{
 	}
 }
 /*best sellers items end*/
-/*customers reviews start*/
+/*customers reviews start*//*
 #customers-reviews{
 	background-image:url("../images/bg.jpeg");
-	
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
-}
+}*/
 #customers-reviews img{
 	width: 130px;
 	height: 130px;
